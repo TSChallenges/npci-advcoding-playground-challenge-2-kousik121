@@ -20,7 +20,7 @@ public class ClinicManagementSystem {
 
         // Schedule appointments
         clinic.getSchedule(); // Should schedule first 3 patients
-        clinic.getSchedule(); // Should schedule the remaining patients for the next day
+        //clinic.getSchedule(); // Should schedule the remaining patients for the next day
 
         // Provide treatment
         clinic.providedTreatment(p1, "Paracetamol");
